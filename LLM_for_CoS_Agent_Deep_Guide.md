@@ -281,35 +281,32 @@ You can then build **thin custom layers** (Slack bots, web panels) on top rather
 
 ## 9. Example Architecture – Hybrid LLM CoS Agent
 
-```mermaid
 flowchart LR
-    subgraph Inputs
-        E[Email] --> R
-        C[Calendar] --> R
-        S[Slack/Teams] --> R
-        P[PM Tools] --> R
-        CRM[CRM] --> R
-    end
+  subgraph Inputs
+    E[Email] --> R
+    C[Calendar] --> R
+    S[Slack/Teams] --> R
+    P[PM Tools] --> R
+    CRM[CRM] --> R
+  end
 
-    subgraph Router
-        R[Router Agent (GPT‑4o‑mini)] --> O1
-    end
+  subgraph Router
+    R[Router Agent - GPT-4o-mini] --> O1
+  end
 
-    subgraph Orchestrators
-        O1[Task / Inbox Orchestrator (GPT‑4o)]
-        O2[Docs / Knowledge Orchestrator (Claude Sonnet)]
-        O3[Long‑Context Orchestrator (Gemini 1.5 Pro)]
-    end
+  subgraph Orchestrators
+    O1[Task / Inbox Orchestrator - GPT-4o]
+    O2[Docs / Knowledge Orchestrator - Claude Sonnet]
+    O3[Long-Context Orchestrator - Gemini Pro]
+  end
 
-    O1 --> A1[Task Service]
-    O1 --> A2[Notification Service]
-    O2 --> KB[(Vector DB / RAG)]
-    O3 --> Arch[(Archive Store)]
+  O1 --> A1[Task Service]
+  O1 --> A2[Notification Service]
+  O2 --> KB[(Vector DB / RAG)]
+  O3 --> Arch[(Archive Store)]
 
-    A1 --> PMTools
-    A2 --> SlackOut
-```
-
+  A1 --> PMTools[PM Tools]
+  A2 --> SlackOut[Slack / Teams]
 Key ideas:
 
 - Use **cheap router model** for classification and dispatch.

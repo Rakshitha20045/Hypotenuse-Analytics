@@ -1,6 +1,6 @@
-## GitHub Repositories – AI Chief of Staff / CoS Agents (15 Repos)
+## GitHub Repositories – AI Chief of Staff / CoS Agents 
 
-> Use these projects as references for architecture, prompts, memory design, and integrations when designing your own CoS agent.
+> These projects as references for architecture, prompts, memory design, and integrations when designing your own CoS agent.
 
 ---
 

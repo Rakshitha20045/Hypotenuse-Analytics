@@ -281,6 +281,7 @@ You can then build **thin custom layers** (Slack bots, web panels) on top rather
 
 ## 9. Example Architecture – Hybrid LLM CoS Agent
 
+```mermaid
 flowchart LR
   subgraph Inputs
     E[Email] --> R
@@ -307,12 +308,11 @@ flowchart LR
 
   A1 --> PMTools[PM Tools]
   A2 --> SlackOut[Slack / Teams]
-Key ideas:
+```
 
-- Use **cheap router model** for classification and dispatch.
-- Use **expensive orchestrators** only when needed.
-- Keep **tools (A1/A2, PMTools, SlackOut)** as regular microservices, not inside the LLM.
-
+- Use cheap router model for classification and dispatch.  
+- Use expensive orchestrators only when needed.  
+- Keep tools (A1/A2, PMTools, SlackOut) as regular microservices, not inside the LLM.
 ---
 
 ## 10. GitHub Repositories & References

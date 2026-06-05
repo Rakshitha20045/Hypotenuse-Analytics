@@ -1,6 +1,5 @@
 # Kimi (Moonshot AI) – Complete Guide for Builders (kimi.md)
 
-> This document explains Kimi, its models, UI features, agent ecosystem, open‑source story, pricing/free tiers, and how to use it for company “Chief‑of‑Staff” (CoS) style agents. It’s written so any teammate (engineer, PM, founder) can understand what Kimi is and how to use it.
 
 ---
 
@@ -515,9 +514,3 @@ These links are the canonical references for more details:
 - **Kimi Docs & Kimi Sheets – Overview**  
   https://www.kimi.com/help/docs-and-sheets/docs-and-sheets-overview[web:204]
 
-Use this `kimi.md` as the shared reference so that anyone joining the team quickly understands:
-
-- What Kimi is
-- What each sidebar feature does
-- How Agent Swarm, Kimi Claw, and Kimi Code CLI fit together
-- How open‑source Kimi models can be used in our own agents, including CoS‑style systems.

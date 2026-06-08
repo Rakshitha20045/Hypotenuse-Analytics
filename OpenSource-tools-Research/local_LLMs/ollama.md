@@ -1,6 +1,5 @@
-# Ollama: The Complete A-Z Guide
+# Ollama: The Complete Guide 
 
-> Everything you need to know about Ollama, from beginner concepts to production deployments.
 
 ---
 

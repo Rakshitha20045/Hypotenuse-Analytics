@@ -1,4 +1,4 @@
-```md
+
 # vLLM Deep Dive Guide
 
 # What is vLLM?
@@ -480,4 +480,3 @@ vLLM is the industry-standard open-source inference engine for serving Large Lan
 The simplest definition:
 
 "vLLM is the GPU-optimized engine that runs and serves LLMs at scale."
-```

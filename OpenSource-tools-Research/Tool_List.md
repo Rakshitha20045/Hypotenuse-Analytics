@@ -9,3 +9,7 @@
 7. grok
 8. openrouter
 9. Hugging_Face
+10. Openhands
+11. Whisper , Whisperx
+12. Activepieces
+13. VidRush ai

@@ -1,4 +1,4 @@
-# AI & Open Source Tools Master List (27 Tools)
+# AI & Open Source Tools Master List 
 
 | No. | Tool Name                          | Use Case (Short Summary)                                                                 | Official / External Link |
 |-----|------------------------------------|------------------------------------------------------------------------------------------|--------------------------|

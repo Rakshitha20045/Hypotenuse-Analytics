@@ -32,9 +32,12 @@
 
 ---
 
-### Additional Resources
-- **[Beyond Tools - 10,000 Free AI Tools](https://beyondtools.io/articles/ten-thousand-free-ai-tools)**
-- **[Poe 400+ AI Tools Guide](https://drive.google.com/file/d/1QnYDTAOwM77oNo4_YQrowEtdQ32hKmw1/view)**
-- **[Google Doc - Tools Research](https://docs.google.com/document/u/0/d/1ohblGSwPI_456vGsNA686VQAAx-CJ_z9XFtduMH1CmE/mobilebasic)**
+###  PDF Resources
 
-
+| Resource Name                              | Description                                              | Link |
+|--------------------------------------------|----------------------------------------------------------|------|
+| **Google Doc - Tools Research**           | Main research document with detailed tool notes         | [Open Google Doc](https://docs.google.com/document/u/0/d/1ohblGSwPI_456vGsNA686VQAAx-CJ_z9XFtduMH1CmE/mobilebasic) |
+| **Claude Code Free Guide**                | Free ways and tips to use Claude for coding             | [Download PDF](https://drive.google.com/file/d/1pBALw9biBH0Bvq5R8fpwD1TnJNliMQzC/view) |
+| **Animated Websites Guide**               | Free & paid tools for creating animated websites        | [Download PDF](https://drive.google.com/file/d/1nhZi5x2B2j4OnzZMduDKB4xJBRJlh1I9/view) |
+| **Poe 400+ AI Tools Guide**               | Collection of 400+ useful AI tools                      | [Download PDF](https://drive.google.com/file/d/1QnYDTAOwM77oNo4_YQrowEtdQ32hKmw1/view) |
+| **Beyond Tools - 10,000 Free AI Tools**   | Huge directory listing thousands of free & paid AI tools | [Visit Beyond Tools](https://beyondtools.io/articles/ten-thousand-free-ai-tools) |
